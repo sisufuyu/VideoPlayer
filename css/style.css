@@ -1,0 +1,220 @@
+@import url(font/iconfont.css);
+*{
+     margin: 0;
+     padding: 0;
+     border: none;
+}
+.player{
+    width: 854px;
+    height: 535px;
+    margin: 50px auto;
+    background-color: black;
+    /* border: 1px solid red; */
+    box-shadow: 0 0 4px #5b606d;
+    position: relative;
+}
+.myVideo{
+    width: 100%;
+    height: 480px;
+}
+.controls{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.controls-elem{
+    height: 20px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+}
+i{
+    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    color: #FF9933;
+}
+.pause{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url(../src/pause.png) no-repeat center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+#jumpback{
+    margin-left: 20px;
+}
+/* video currentTime & duration style*/
+.time{
+    color: white;
+    font-size: 14px;
+    width: 100px;
+}
+/* video progress */
+.progress{
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+}
+#video-progress{
+    width: 100%;
+    height: 5px;
+    border: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: black;
+    float: left;
+    color: #FF9933;
+}
+/* progress in Chrome, Opear, Edge */
+#video-progress::-webkit-progress-bar{
+    background-color: black;
+}
+#video-progress::-webkit-progress-value{
+    background-color: #FF9933;
+}
+/* progress in firefox */
+#video-progress::-moz-progress-bar{
+    background-color: #FF9933;
+}
+
+.controls-right{
+    float: right;
+    margin-right: 20px;
+}
+/* volume */
+.volume{
+    position: relative;
+    width: 125px;
+}
+.volume-icon{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.volume-bar{
+    width: 100px;
+    height: 10px;
+    position: absolute;
+    left: 25px;
+    top: 5px;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    background: linear-gradient(to right, #FF9933 50%, #666 50%);
+    outline: none;
+}
+/* input range in Chrome, Opera, Microsoft Edge */
+.volume-bar::-webkit-slider-runnable-track{
+    height: 10px;
+    border-radius: 5px;
+}
+.volume-bar::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    margin-top: -5px;
+    background: white;
+    border-radius: 50%;
+    border: none;
+}
+/* input range style in firefox */
+.volume-bar::-moz-range-track{
+    height: 10px;
+    border-radius: 5px;
+}
+.volume-bar::-moz-range-thumb{
+    width: 20px;
+    height: 20px;
+    margin-top: -5px;
+    background: white;
+    border-radius: 50%;
+    border: none;
+}
+/* input range style in IE*/
+.volume-bar::-ms-track{
+    height: 10px;
+    background: transparent;
+    border-radius: 5px;
+    border: none;
+    color: transparent;
+}
+.volume-bar::-ms-fill-lower{
+    background: #FF9933;
+}
+.volume-bar::-ms-fill-upper{
+    background: #666;
+}
+.volume-bar::-ms-thumb{
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    border: none;
+}
+.volume-bar::-ms-tooltip{
+    display: none;
+}
+/* speed style */
+.speed{
+    position: relative;
+    height: 35px;
+    width: 20px;
+    margin: 0 0 15px 20px;
+}
+.speed-active{
+    position: absolute;
+    top: 15px;
+}
+.speed:hover .speed-container{
+    display: block;
+}
+.speed-container{
+    width: 60px;
+    height: 145px;
+    position: absolute;
+    top: -140px;
+    left: -20px;
+    text-align: center;
+    color: #ccc;
+    border: 1px solid #666;
+    border-radius: 10px;
+    background-color: black;
+    display: none;
+}
+.speed-container p{
+    font-size: 12px;
+    border-bottom: 1px solid #666;
+}
+.speed-container ul{
+    list-style-type: none;
+}
+.speed-container li{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+.speed-item i {
+    margin-left: 18px;
+    float: left;
+}
+.speed-chosen:after{
+    content: '√';
+    display: block;
+    float: left;
+    margin-left: 5px;
+}
+.full-screen{
+    margin-left: 20px;
+}
