@@ -1,0 +1,100 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1025133",
+      "name": "声音",
+      "font_class": "shengyin",
+      "unicode": "e753",
+      "unicode_decimal": 59219
+    },
+    {
+      "icon_id": "9559062",
+      "name": "全屏",
+      "font_class": "ziyuan",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "12752440",
+      "name": "取消全屏",
+      "font_class": "quxiaoquanping_huaban",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "13314432",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e6cc",
+      "unicode_decimal": 59084
+    },
+    {
+      "icon_id": "14201821",
+      "name": "0.5倍速",
+      "font_class": "05beisu",
+      "unicode": "e754",
+      "unicode_decimal": 59220
+    },
+    {
+      "icon_id": "14201822",
+      "name": "0.75倍速",
+      "font_class": "075beisu",
+      "unicode": "e755",
+      "unicode_decimal": 59221
+    },
+    {
+      "icon_id": "14201823",
+      "name": "1倍速",
+      "font_class": "1beisu",
+      "unicode": "e756",
+      "unicode_decimal": 59222
+    },
+    {
+      "icon_id": "14201825",
+      "name": "1.5倍速",
+      "font_class": "15beisu",
+      "unicode": "e758",
+      "unicode_decimal": 59224
+    },
+    {
+      "icon_id": "14318351",
+      "name": "快进",
+      "font_class": "kuaijin",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "14318352",
+      "name": "后退",
+      "font_class": "houtui",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "15311734",
+      "name": "暂停",
+      "font_class": "zanting",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "16356236",
+      "name": "静音",
+      "font_class": "jingyin",
+      "unicode": "e6df",
+      "unicode_decimal": 59103
+    },
+    {
+      "icon_id": "18455580",
+      "name": "2.0倍速",
+      "font_class": "20beisu",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    }
+  ]
+}
