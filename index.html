@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="player">
+        <!-- video -->
+        <video class="myVideo" id="myVideo" poster="src/poster.PNG">
+            <source src="src/video.mp4" type="video/mp4">
+            <source src="src/video.webm" type="video/webm">
+            <p>Sorry, your browser doesn't support embedded videos.</p>
+        </video>
+        <!-- video pause img show in center of video -->
+        <div class="pause"></div>
+        <!-- control bar -->
+        <div class="controls">
+            <!-- backward 15s -->
+            <div class="jump controls-elem" id="jumpback"><i class="iconfont icon-houtui"></i></div>
+            <!-- play & pause -->
+            <div class="play controls-elem"><i class="iconfont icon-bofang"></i></div>
+            <!-- forward 15s -->
+            <div class="jump controls-elem" id="jumpfront"><i class="iconfont icon-kuaijin"></i></div>
+            <!-- current time and duration -->
+            <div class="time controls-elem">
+                <span class="currTime">0:00</span>
+                <span> / </span>
+                <span class="duration">0:00</span>
+            </div>
+            <!-- progress bar -->
+            <div class="progress">
+                <progress min="0" max="100" value="0" id="video-progress"></progress>
+            </div>
+            <div class="controls-right">
+                <!-- volume-->
+                <div class="volume controls-elem">
+                    <div class="volume-icon"><i class="iconfont icon-shengyin"></i></div>
+                    <input class="volume-bar" type="range" min="0" max="100" value="50">
+                </div>
+                <!-- speed -->
+                <div class="speed controls-elem">
+                    <div class="speed-active"><i class="iconfont">&#xe756;</i></div>
+                    <div class="speed-container">
+                        <p>speed</p>
+                        <ul>
+                            <li class="speed-item" data-speed="2"><i class="iconfont ">&#xe614;</i></li>
+                            <li class="speed-item" data-speed="1.5"><i class="iconfont ">&#xe758;</i></li>
+                            <li class="speed-item speed-chosen" data-speed="1"><i class="iconfont ">&#xe756;</i></li>
+                            <li class="speed-item" data-speed="0.75"><i class="iconfont ">&#xe755;</i></li>
+                            <li class="speed-item" data-speed="0.5"><i class="iconfont ">&#xe754;</i></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- full screen -->
+                <div class="full-screen controls-elem">
+                    <i class="iconfont icon-ziyuan"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
