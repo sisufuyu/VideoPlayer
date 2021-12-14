@@ -1,6 +1,6 @@
 # VideoPlayer
 
-VideoPlayer is a self-defined video player, can embed in other web pages. Support Chrome, Firefox, Opera, Microsoft Ege and IE version later than 10.
+VideoPlayer is a self-defined video player, can embed in other web pages. Support Chrome, Firefox, Opera, Microsoft Ege and IE version later than 10. You can check the video player from https://sisufuyu.github.io/VideoPlayer/.
 
 ## Folder structure
 
